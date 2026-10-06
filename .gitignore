@@ -1,0 +1,34 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# === Material da professora (não redistribuir) ===
+docs/referencias/
+
+# === Entrega da faculdade (dados pessoais: nome, RA) — nunca subir ===
+entrega/
+*.pdf
+
+# === IDE / SO ===
+.vscode/settings.json
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# === Claude Code (local) ===
+.claude/settings.local.json
+.claude/agent-memory/
+CLAUDE.local.md
+project.local.yaml
+production/session-logs/
+production/session-state/
+.scratch/
+
+# === Build ===
+build/
+dist/
+*.spec
